@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+input{
+  height: 25px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 5px solid #61dafb;
+}
+button{
+  height: 40px;
+  font-size: 20px;
+  /* border: none; */
+  /* border-bottom: 5px solid #61dafb;*/
+   color: white; 
+  background-color: black
+}
+.groceydata{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.groceydata h1{
+  margin: 10px;
+}
+  
